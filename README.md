@@ -30,6 +30,10 @@ cd Dev/
 wget http://twitter.github.com/bootstrap/assets/bootstrap.zip
 unzip bootstrap.zip
 rm bootstrap.zip
-mv bootstrap/* .
-rmdir bootstrap/
+```
+
+Then, you will need __JQuery__:
+```shell
+wget http://code.jquery.com/jquery-latest.min.js
+mv jquery-latest.min.js bootstrap/js/jquery.min.js
 ```

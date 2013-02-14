@@ -155,7 +155,7 @@ if (isset($_GET['p']) && array_key_exists($_GET['p'], $pages))
 <html>
   <head>
     <title>return (to_life); - Development page</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style type="text/css">
       body {
         background: #eee;
@@ -221,7 +221,7 @@ if ($pages[$page]['iframe'] === true)
 
     </div>
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
