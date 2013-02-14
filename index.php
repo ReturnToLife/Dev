@@ -131,20 +131,34 @@ $pages = array('home'     => array('name' => 'Presentation',
                                    'iframe' => false),
                'team'     => array('name' => 'Team',
                                    'icon' => 'user',
-                                   'content' => '      <table class="table table-hover table-bordered">
-	<tr>
-	  <td><img width="150"  src="http://public.db0.fr/Images/photos/identite.jpg" /></td>
-	  <td>Barbara Lepage</td>
-	  <td><img width="150"  src="http://eip.epitech.eu/2014/studarea/assets/img/sofia.png" /></td>
-	  <td>Sofia Bideaux</td>
-	</tr>
-	<tr>
-	  <td><img width="150"  src="http://eip.epitech.eu/2014/studarea/assets/img/munoz_v.jpg" /></td>
-	  <td>Vincent Munoz</td>
-	  <td><img width="150"  src="http://www.epitech.eu/intra/photos/meilha_v.jpg" /></td>
-	  <td>Vivien Meilhac</td>
-	</tr>
-      </table>',
+                                   'content' => '      <div class="row-fluid">
+	<div class="span3 team">
+	  <img class="img-circle" width="150"  src="img/team/lepage_b.jpg" />
+	</div>
+	<div class="span3 team">
+	  <img class="img-circle" width="150"  src="img/team/bideau_s.jpg" />
+	</div>
+	<div class="span3 team">
+	  <img class="img-circle" width="150"  src="img/team/munoz_v.jpg" />
+	</div>
+	<div class="span3 team">
+	  <img class="img-circle" width="150"  src="img/team/meilha_v.jpg" />
+	</div>
+      </div>
+      <div class="row-fluid">
+	<div class="span3 team">
+	  Barbara Lepage
+	</div>
+	<div class="span3 team">
+	  Sofia Bideaux
+	</div>
+	<div class="span3 team">
+	  Vincent Munoz
+	</div>
+	<div class="span3 team">
+	  Vivien Meilhac
+	</div>
+      </div>',
                                    'iframe' => false),
                );
 $page = 'home';
@@ -175,6 +189,13 @@ if (isset($_GET['p']) && array_key_exists($_GET['p'], $pages))
       }
       .smalliframe {
         height: 300px;
+      }
+      .team {
+        text-align: center;
+	font-weight: bold;
+      }
+      .team img {
+        margin-bottom: 10%;
       }
     </style>
   </head>
