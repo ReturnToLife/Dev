@@ -33,7 +33,7 @@ function	progress() {
   }
 
   // which week will be displayed?
-  $doc = intval(date('W'));
+  $doc = intval(date('W')) - 1;
   if (isset($_GET['w']))
     $doc = $_GET['w'];
   if (!array_key_exists(intval($doc), $menu))
@@ -188,7 +188,7 @@ if (isset($_GET['p']) && array_key_exists($_GET['p'], $pages))
         border: none;
       }
       .smalliframe {
-        height: 300px;
+        height: 480px;
       }
       .team {
         text-align: center;
