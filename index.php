@@ -18,13 +18,13 @@ $pages = array('home'     => array('name' => 'Presentation',
                                    'content' => '      <h4>Sources</h4>
       <ul>
 	<li>Source of the Website:
-	  <a href="https://github.com/ReturnToLife/Portal4">
-	    https://github.com/ReturnToLife/Portal4
+	  <a href="https://github.com/ReturnToLife/Portal5">
+	    https://github.com/ReturnToLife/Portal5
 	  </a>
 	</li>
 	<li>Source of the Web-service:
-	  <a href="https://github.com/db0company/Ionis-Users-Informations-Web-Service">
-	    https://github.com/db0company/Ionis-Users-Informations-Web-Service
+	  <a href="https://github.com/ReturnToLife/Portal4_API">
+	    https://github.com/ReturnToLife/Portal4_API
 	  </a>
 	</li>
 	<li>Source of <b>this</b> Website:
