@@ -6,7 +6,6 @@ about the development of the project return (to_life);:
 * Short presentation
 * Documentation
 * Developers team members
-* Development progress sheets
 
 It is based on a bunch of documents on Google Documents:
 * https://docs.google.com/folder/d/0Bw8n0yHMUHF-UEZXRTNkVE5XSGs/edit?usp=sharing
