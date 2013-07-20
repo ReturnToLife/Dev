@@ -5,17 +5,21 @@
 // Latest Version is on GitHub: https://github.com/ReturnToLife/Dev           //
 // ************************************************************************** //
 
-$pages = array('home'     => array('name' => 'Presentation',
+$pages = array('home'     => array('name' => 'Short presentation',
                                    'icon' => 'home',
                                    'content' => 'https://docs.google.com/document/d/1yTeGzE57fRWVcqIVqUHC72L_nBz-WHHvN-ZgDf43qpA/pub?embedded=true',
                                    'iframe' => true),
-               'doc'      => array('name' => 'Documentation',
+               'doc'      => array('name' => 'Full documentation',
                                    'icon' => 'book',
                                    'content' => 'https://docs.google.com/document/d/1B3lAgtmkN3CF6BAe331fz9xPUiOnCXzvPp7CZ3Dv750/pub?embedded=true',
                                    'iframe' => true),
-               'src'      => array('name' => 'Sources, contributors',
+               'api'      => array('name' => 'API web-service',
+                                   'icon' => 'share',
+                                   'content' => 'https://docs.google.com/document/d/1H7FrCQJen_pwQSjZ93bPfwQo9umWkrQCDS2dsN8TyDQ/pub?embedded=true',
+                                   'iframe' => true),
+               'src'      => array('name' => 'Sources, contact, contribute!',
                                    'icon' => 'cog',
-                                   'content' => '      <h4>Sources</h4>
+                                   'content' => '      <h3>Sources</h3>
       <ul>
 	<li>Source of the Website:
 	  <a href="https://github.com/ReturnToLife/Portal5">
@@ -33,14 +37,17 @@ $pages = array('home'     => array('name' => 'Presentation',
 	  </a>
 	</li>
       </ul>
-      <h4>Contributors</h4>
+      <h3>Contribute!</h3>
       Feel free to contribute by forking these projects on GitHub and make pull requests.<br />
-      You can also help us by creating issues for features requests and bugs reports, on GitHub too.',
+      You can also help us by creating issues for features requests and bugs reports, on GitHub too.<br>
+      <br>
+      The list of current contributors is on the <a href="?p=team">Team page</a>.
+      <h3>Contact us</h3>
+      <ul>
+         <li>Contact the dev team: <a href="mailto:return-dev@googlegroups.com">return-dev@googlegroups.com</a></li>
+         <li>Contact the general team (writers, reporters, ...): <a href="mailto:return-to_life@googlegroups.com">return-to_life@googlegroups.com</a></li>
+      </ul>',
                                    'iframe' => false),
-               'api'      => array('name' => 'API',
-                                   'icon' => 'share',
-                                   'content' => 'https://docs.google.com/document/d/1H7FrCQJen_pwQSjZ93bPfwQo9umWkrQCDS2dsN8TyDQ/pub?embedded=true',
-                                   'iframe' => true),
                'team'     => array('name' => 'Team',
                                    'icon' => 'user',
                                    'content' => '      <div class="row-fluid">
@@ -58,7 +65,14 @@ $pages = array('home'     => array('name' => 'Presentation',
 	<div class="span6 team">
 	  Uriel Corfa
 	</div>
-      </div>',
+      </div>
+      <div>
+         <a href="?p=src"><center><button class="btn btn-success">
+           <h4>Want to join the team?</h4>
+           <p>Contribute on GitHub or contact us!</p>
+         </button></center></a>
+      </div>
+',
                                    'iframe' => false),
                );
 $page = 'home';
